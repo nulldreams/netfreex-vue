@@ -1,6 +1,5 @@
 <template>
   <div>
-    <menu-top/>
     <section class="hero wave">
         <div class="titulo">
             <h3>Ta afim de curtir uma série no fim de semana?</h3>
@@ -18,7 +17,6 @@
 </template>
 
 <script>
-import menuTop from '@/components/geral/menuTop';
 import catalogoSeries from '@/components/geral/sections/catalogoSeries';
 import catalogoAnimes from '@/components/geral/sections/catalogoAnimes';
 import catalogoFilmes from '@/components/geral/sections/catalogoFilmes';
@@ -26,7 +24,6 @@ import catalogoFilmes from '@/components/geral/sections/catalogoFilmes';
 export default {
   name: 'Principal',
   components: {
-      menuTop,
       catalogoSeries,
       catalogoAnimes,
       catalogoFilmes

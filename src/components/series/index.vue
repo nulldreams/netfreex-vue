@@ -1,19 +1,16 @@
 <template>
   <div>
-    <menu-top/>
     <shows v-bind:shows="series"/>
   </div>
 </template>
 <script>
 import axios from "axios";
-import menuTop from '@/components/geral/menuTop';
 import shows from '@/components/geral/sections/shows';
 
 export default {
   name: "Series",
   components: {
-    shows,
-    menuTop
+    shows
   },
   data() {
     return {
