@@ -1,0 +1,1083 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700");
+@font-face {
+  font-family: "GothamRnd-Book";
+  font-style: normal;
+  font-weight: normal;
+  src: local("GothamRnd-Book"), url("../fonts/gotham/GothamRnd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamRnd-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("GothamRnd-Medium"), url("../fonts/gotham/GothamRnd-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamRnd-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("GothamRnd-Bold"), url("../fonts/gotham/GothamRnd-Bold.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: normal 16px "GothamRnd-Book", sans-serif;
+  color: #555;
+}
+
+ul,
+nav {
+  list-style: none;
+}
+
+button {
+  font-family: "GothamRnd-Book", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer;
+  font-family: "GothamRnd-Book", sans-serif;
+}
+
+p {
+  font-family: "GothamRnd-Book", sans-serif;
+}
+
+h3 {
+  font-family: "GothamRnd-Medium", sans-serif;
+}
+
+.texto {
+  color: #555;
+}
+
+.logo {
+  color: #65def1;
+}
+
+.inicio {
+  color: #fb3454;
+}
+
+.filmes {
+  color: #65def1;
+}
+
+.series {
+  color: #ffd124;
+}
+
+.animes {
+  color: #fb3454;
+}
+
+.red {
+  background-color: #fb3454;
+}
+
+.cyan {
+  background-color: #65def1;
+}
+
+.yellow {
+  background-color: #ffd124;
+}
+
+.bg-light {
+  background-color: #f5f7fa;
+}
+
+hr {
+  width: 150px;
+  height: 2px;
+  background-color: #2196f3;
+  border: 0;
+  /* margin-bottom: 80px; */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 125px 100px;
+}
+
+section h3.title {
+  color: #414a4f;
+  text-transform: capitalize;
+  font: bold 32px "GothamRnd-Bold", sans-serif;
+  /* margin-bottom: 35px; */
+  text-align: center;
+}
+
+section p {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 35px;
+  padding: 0 20px;
+  line-height: 2;
+}
+
+ul.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.grid p {
+  font-family: "GothamRnd-Book", sans-serif;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+/* Header */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 150px 20px;
+}
+
+header h2 {
+  font-family: "GothamRnd-Book", sans-serif;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav li {
+  margin: 0 15px;
+}
+
+header nav li:first-child {
+  margin-left: 0;
+}
+
+header nav li:last-child {
+  margin-right: 0;
+}
+
+/* End Header */
+
+/* Hero */
+
+.hero {
+  position: relative;
+  justify-content: center;
+  min-height: 90vh;
+  color: #fff;
+  text-align: center;
+  background-color: #65def1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.hero .imagem img {
+  height: 350px;
+}
+
+.hero>.imagem {
+  width: 50%;
+  height: 50%;
+  margin-right: auto;
+}
+
+.hero>.titulo {
+  width: 60%;
+  height: auto;
+}
+.more {
+  padding-top: 100px;
+  color: #65def1;
+  /* background: #fff; */
+}
+
+.more a {
+  text-decoration: none;
+  color: #65def1;
+}
+.more a:hover {
+  color: #65def1 !important;
+}
+
+.more p {
+  background: #fff;
+  width: 406px;
+  height: 60px;
+  line-height: 60px !important;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 700 !important;
+  /* font-family: 'GothamRnd-Bold', sans-serif; */
+  text-transform: uppercase;
+}
+
+/* .hero .background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #65DEF1;
+	z-index: -1;
+}
+
+.hero .background-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #414a4f;
+	opacity: 0.75;
+} */
+
+/* .hero > .imagem {
+  width: 50%;
+  height: 50%;
+  margin-right: auto;
+}
+
+.hero > .titulo {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+} */
+
+.hero h3 {
+  font: bold 60px "GothamRnd-Bold", sans-serif;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.hero p {
+  font: normal 20px "GothamRnd-Book", sans-serif;
+  margin-bottom: 15px;
+  margin: 0 auto;
+}
+
+.hero a.btn {
+  padding: 20px 46px;
+}
+
+/* End Hero */
+
+/* Filmes */
+
+.filmes-section {
+  background-color: #fff;
+  margin-top: 4%;
+}
+
+/* Animes */
+
+.animes-section {
+  background-color: #fff;
+  margin-top: 4%;
+}
+
+.animes-section .box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animes-section img {
+  width: 200px;
+  height: 300px;
+}
+
+.animes-section .item {
+  margin: 10px;
+}
+
+.animes-section .item .titulo {
+  width: 200px;
+}
+
+/* End Animes */
+
+/* Anime */
+
+.anime-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime-section .item .botoes {
+  justify-content: space-between;
+}
+
+.anime-section .item {
+  width: 50%;
+  text-align: left;
+}
+
+.anime-section .item .info-filme {
+  margin-top: 50px;
+}
+
+.anime-section .item p {
+  font: bold 25px "GothamRnd-Bold", sans-serif;
+  color: #555;
+}
+
+.anime-section p {
+  font-family: 'GothamRnd-Medium', sans-serif;
+  font-size: 15px;
+  color: #555;
+}
+
+.anime-section h1 {
+  font-family: 'GothamRnd-Medium', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #555;
+}
+
+.anime-section .informacoes {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+
+.anime-section .info {
+  left: 0;
+}
+
+/* End Anime */
+
+/* FIlme */
+
+.filme-section {
+  background-color: #fff;
+  margin-top: 10%;
+}
+
+/* End FIlme */
+
+/* Our Work */
+
+.оur-work {
+  background-color: #fff;
+}
+
+.our-work .grid li {
+  padding: 20px;
+  height: 150px;
+  border-radius: 3px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+}
+
+.our-work .grid li.small {
+  flex-basis: 40%;
+}
+
+.our-work .grid li.large {
+  flex-basis: 60%;
+}
+
+/* End Our Work */
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: #414a4f;
+  padding: 60px 0;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+footer ul li {
+  margin: 0 8px;
+}
+
+footer ul li:first-child {
+  margin-left: 0;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+}
+
+footer p a {
+  color: #fff;
+}
+
+/* End Footer */
+
+/* Capas */
+
+.capas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.capas .titulo {
+  text-align: center;
+}
+
+/* End Capas */
+
+/* Ver filme */
+
+.ver-filme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.ver-filme .item {
+  width: 60%;
+  margin-top: 4%;
+  text-align: left;
+}
+
+.ver-filme .informacoes {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+
+.ver-filme .info {
+  margin-left: 4%;
+}
+
+/* End Ver filme */
+
+#anime:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
+}
+
+.videogular-container {
+  margin-bottom: 5%;
+}
+
+/* Custom button */
+
+videogular my-stop-button {
+  display: table-cell;
+  width: 50px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+videogular my-stop-button a,
+videogular my-stop-button a:hover,
+videogular my-stop-button a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+videogular div.my-button {
+  display: table-cell;
+  width: 50px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+videogular div.my-button a,
+videogular div.my-button a:hover,
+videogular div.my-button a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.opcoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.opcoes>.opcao .episodio {
+  width: 400px;
+  height: 80px;
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.opcoes>.opcao a {
+  line-height: 60px;
+  text-align: center;
+  padding: 10px;
+  border-box: box-sizing;
+}
+
+.opcoes h3 {
+  margin: 30px;
+}
+
+.temporadas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  /* margin-top: 5%; */
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.temporadas>.item {
+  margin: 10px;
+}
+
+.episodios-section {
+  display: flex;
+  align-items: center;
+}
+
+.info-filme {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: row;
+  /* max-width: 80%; */
+}
+
+.episodios {
+  margin: 0 auto;
+}
+
+.info-filme .capa {
+  width: 185px;
+  height: auto;
+  margin-right: auto;
+}
+
+.info-filme .capa img {
+  width: 490px;
+}
+
+.info-filme .info h3 {
+  padding: 0 20px;
+  color: #555;
+}
+
+.info-filme .info p {
+  font-family: "GothamRnd-Book", sans-serif;
+  text-align: justify;
+  margin-top: 0px;
+  max-width: 800px;
+  font-size: 14px;
+  margin-bottom: 0px !important;
+  padding: 0 20px;
+  line-height: 2;
+  color: #555;
+}
+
+.info-filme .info p span {
+  font-family: "GothamRnd-Bold", sans-serif;
+}
+
+.config-anime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.config-anime button {
+  margin-bottom: 5px;
+}
+
+.config-anime .open {
+  margin-right: auto;
+}
+
+.config-anime .end {
+  margin-left: auto;
+}
+
+.swal-margin {
+  margin: 10px;
+}
+
+.swal-title {
+  font-family: "GothamRnd-Medium", sans-serif;
+}
+
+.swal-text {
+  font-family: "GothamRnd-Book", sans-serif;
+  line-height: unset;
+}
+
+.episodios-opcao {
+  padding: 10px;
+  border-box: box-sizing
+}
+
+.wave {
+  height: 50px;
+  position: relative;
+}
+
+.wave::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
+}
+
+.wave::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image: radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0 auto;
+  width: 94%;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.wrap li {
+  background: #555;
+  border-radius: 5px;
+}
+
+.flex-item {
+  /* padding: 5px; */
+  width: 255px;
+  height: 144px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.flex-container-animes {
+  padding: 0;
+  margin: 0 auto;
+  width: 94%;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.wrap-animes {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.wrap-animes li {
+  background: #fb3454;
+  border-radius: 5px;
+}
+.wrap-animes li p {
+  font-size: 30px;
+  line-height: 90px;
+}
+
+.flex-item-animes {
+  /* padding: 5px; */
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loading img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.audio {
+  display: flex;
+  max-width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.audio button {  
+  font-family: 'GothamRnd-Medium', sans-serif;
+}
+
+.audio .item {
+  margin: 10px;
+}
+
+/* .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.flex-item:hover .image {
+  opacity: 0.1;
+}
+
+.flex-item:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  user-select: none;
+  font-family: "GothamRnd-Book", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+} */
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background: rgba(85, 85, 85, 0.6);
+	color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+.card {
+  width: 185px;
+  height: 276px;
+  padding: 0;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 10px;
+
+
+
+  
+}
+
+.login-card {
+  width: 500px;
+  height: 500px;
+  padding: 0;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  /* -webkit-box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25); */
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.register {
+  height: 640px;
+}
+
+.login-card h1 {
+  font-family: 'GothamRnd-Medium', sans-serif;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-card .inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.login-card .inputs input {
+  font-family: 'GothamRnd-Book', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  background: #e8eeef;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  height: 50px;
+}
+.login-card .inputs button {
+  font-family: 'GothamRnd-Book', sans-serif;
+  margin-top: 30px;
+
+}
+.login-card .inputs p {
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: left;
+  color: #555;
+  font-size: 15px;
+}
+
+.login-card .inputs .integracoes .fa-facebook-square {
+  color: #0275d8;
+}
+.login-card .inputs .integracoes .fa-google-plus-square {
+  color: #fb3454;
+}
+
+.perfil .fundo-perfil {
+  position: relative;
+  height: 35vh;
+  /* background: #fb3454; */
+  background: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/f/fb/Landscape-backgrounds-tumblr.jpg/revision/latest?cb=20170127065904);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -100px;
+}
+
+.perfil .usuario {
+  position: absolute;
+  left: 150px;
+  top: 250px;
+  right: auto;
+}
+
+.perfil .usuario .imagem img {
+  height: 200px;
+  width: 200px;
+}
+
+.perfil .usuario .informacoes h1 {
+  font-family: 'GothamRnd-Medium', sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+.perfil .usuario .informacoes p {
+  font-family: 'GothamRnd-Book', sans-serif;
+  text-align: center;
+}
+.perfil .usuario .informacoes button {
+  margin: 0 auto;
+}
+
+.perfil .time-line {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 600px;
+}
+
+.perfil .time-line .atividade {
+  /* position: absolute; */
+  height: 200px;
+  width: 90%;
+  margin: 30px;
+  border-radius: 5px;
+  /* left: 600px;
+  margin-top: 100px; */
+  display: flex;
+  flex-direction: row;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.perfil .time-line .atividade .thumb {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.perfil .time-line .atividade .thumb img {
+  width: 100px;
+  height: auto;
+}
+.perfil .time-line .atividade .informacoes {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.perfil .time-line .atividade .informacoes h1 {
+  font-size: 20px;
+  color: #555;
+  font-family: 'GothamRnd-Medium', sans-serif;
+}
+.perfil .time-line .atividade .informacoes p {
+  color: #555;
+  font-size: 17px;
+}
+/* Time Line Graficos */
+.perfil .graficos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-top: 100px;
+  margin-left: 600px;
+  border-radius: 5px;
+}
+
+.perfil .graficos .item {
+  height: 400px;
+  padding: 30px;
+  /* background: tomato; */
+}
+.perfil .graficos .item .capa {
+  margin: 10px;
+}
+.perfil .graficos .item img {
+  width: 200px;
+  height: 300px;
+}
+.perfil .graficos .item .informacoes h1 {
+  font-size: 20px;
+  color: #555;
+  font-family: 'GothamRnd-Medium', sans-serif;
+}
+.perfil .graficos .item .informacoes {
+  margin: 10px;
+}
+/* End Graficos */
+.botoes-mobile {
+  display: none;
+}
+.config-anime-mobile {
+  display: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded {
+  border-radius: 5px;
+}

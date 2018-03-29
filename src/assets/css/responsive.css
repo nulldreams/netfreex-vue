@@ -1,0 +1,244 @@
+@media (max-width: 1000px) {
+  .hero .imagem {
+    display: none;
+  }
+  .hero>.titulo {
+    width: auto;
+    height: 50%;
+    margin-left: auto;
+  }
+  .hero {
+    min-height: 640px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h3 {
+    font-size: 50px;
+  }
+  .hero a.btn {
+    padding: 15px 40px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  section {
+    padding: 100px 50px;
+  }
+  header {
+    padding: 20px 50px;
+  }
+  .animes-section .grid li.small,
+  .animes-section .grid li.large {
+    height: auto;
+    flex-basis: 100%;
+  }
+  .our-work .grid li.small,
+  .our-work .grid li.large {
+    height: auto;
+    flex-basis: 100%;
+  }
+  .filmes-section .grid li.small,
+  .filmes-section .grid li.large {
+    height: auto;
+    flex-basis: 100%;
+  }
+  ul.grid {
+    display: block;
+  }
+  ul.grid p {
+    font-size: 26px;
+    margin-top: 10%;
+  }
+  /* Filmes */
+  .filmes-section,
+  .series-section,
+  .animes-section,
+  .episodios-section {
+    background-color: #fff;
+    margin-top: 20%;
+  }
+  .info-filme {
+    display: block;
+    max-width: 100%;
+  }
+  .info-filme .capa {
+    width: 100%;
+  }
+  .info-filme .info h3 {
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+    color: #555;
+  }
+  .info-filme .info p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 0px;
+  }
+  /* End Filmes */
+  /* Animes */
+  .animes-section .box {
+    display: block;
+  }
+  /* End Animes */
+  /* Episodios */
+  .episodios {
+    display: block;
+  }
+  /* End Episodios */
+  /* profile */
+  .perfil .usuario {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 170px;
+    /* right: auto; */
+  }
+  .perfil .fundo-perfil {
+    position: relative;
+    height: 50vh;
+    background: #fb3454;
+  }
+  .perfil .usuario .imagem {
+    height: 300px;
+    width: 300px;
+    /* padding: 0; */
+    margin: 0 auto;
+  }
+  .perfil .usuario .informacoes {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .perfil .usuario .informacoes h1 {
+    font-family: 'GothamRnd-Medium', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .perfil .time-line {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 0;
+    margin-top: 300px;
+    margin-right: 30px;
+  }
+  .perfil .time-line .atividade {
+    flex-direction: column;
+  }
+  .perfil .time-line .atividade .thumb {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 60px;
+  }
+  .perfil .time-line .atividade .informacoes {
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* margin-top: 20px; */
+    margin: 30px;
+  }
+  .perfil .time-line .atividade .informacoes h1 {
+    font-size: 15px;
+    color: #555;
+    font-family: 'GothamRnd-Medium', sans-serif;
+  }
+  .perfil .time-line .atividade .informacoes p {
+    color: #555;
+    font-size: 13px;
+  }
+  .more p {
+    background: #fff;
+    width: 300px;
+    height: 60px;
+    line-height: 60px !important;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700 !important;
+    /* font-family: 'GothamRnd-Bold', sans-serif; */
+    text-transform: uppercase;
+  }
+  .our-series .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .more {
+    padding-top: 20px;
+  }
+  .audio {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .audio button {
+    width: 130px;
+  }
+  .opcoes {
+    flex-wrap: wrap;
+  }
+  .anime-section {
+    padding: 150px 10px 12px 10px !important;
+  }
+  .anime-section .item {
+    width: 100%;
+    text-align: left;
+  }
+  .botoes {
+    display: none;
+  }
+  .config-anime {
+    display: none;
+  }
+  .botoes-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .botoes-mobile button {
+    width: 120px;
+  }
+  .config-anime-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .config-anime-mobile button {
+    width: 120px;
+  }
+  .wrap-animes {
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .flex-item-animes {
+    width: 70px;
+    height: 70px;
+  }
+  .wrap-animes li p {
+    line-height: 60px;
+    padding: 0 !important;
+  }
+  /* end profile */
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 80px 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  header h2 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  footer {
+    padding: 80px 15px;
+  }
+}
