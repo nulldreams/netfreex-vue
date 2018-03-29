@@ -2,11 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Principal from '@/components/Principal'
 import Series from '@/components/series/index'
+import About from '@/components/About'
 
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
@@ -17,6 +17,11 @@ export default new Router({
       path: '/series',
       name: 'Series',
       component: Series
+    },
+    {
+      path: '/about',
+      name: 'About',
+      component: About
     }
     // {
     //   path: '/animes',
